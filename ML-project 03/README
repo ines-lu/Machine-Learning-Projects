@@ -1,1 +1,17 @@
 ml-project 3
+
+dataset: Credit.csv from http://www.statlearning.com/resources-first-edition 
+
+First, use descriptive statistics, visualization methods to describe and interpret the variables and possible association amongst them. 
+
+Secondly, model Balance_1500 by the explanatory variables Income, Limit, Rating, Cards, Age, Education using the following models:
+- logistic regression, 
+- linear discriminant, and 
+- quadratic discriminant.
+
+Thirdly, find and compare the probability of (Balance_1500), for the following values, using all three aforementionned methods:
+Income 	Limit 	Rating 	Cards 	Age 	Education
+63 	8100 	600 	4 	30 	13
+186 	13414 	950 	2 	41 	13
+
+Lastly, build and compare the confusion matrix, the accuracy score and the AUC using all observations. 
