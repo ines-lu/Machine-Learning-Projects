@@ -5,7 +5,7 @@ dataset: Credit.csv from http://www.statlearning.com/resources-first-edition
 First, use descriptive statistics, visualization methods to describe and interpret the variables and possible association amongst them. 
 
 Secondly, model Balance_1500 by the explanatory variables Income, Limit, Rating, Cards, Age, Education using the following models:
-- logistic regression, 
+**- logistic regression,**
 - linear discriminant, and 
 - quadratic discriminant.
 
